@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    int num1=10;
-    int num2=20;
+    int num1=102;
+    int num2=60;
     scanf("%d%d",&num1,&num2);
     int modulus=num1%num2;
     printf("%d",modulus);
