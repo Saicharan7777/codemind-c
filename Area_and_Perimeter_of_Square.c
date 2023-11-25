@@ -6,4 +6,6 @@ int main()
     b=a*a;
     c=4*a;
     printf("%d %d",b,c);
+    
+    
 }
