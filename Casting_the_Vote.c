@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main()
 {
-    int x;
-    scanf("%d",&x);
-    if(x>=18)
-    {
-        printf("YES");
-    }
-    else
-    {
-        printf("NO");
-    }
+        int X;
+        scanf("%d",&X);
+        if(X>=18)
+        {
+            printf("YES");
+        }else
+        {
+            printf("NO");
+        }
+    
 }
