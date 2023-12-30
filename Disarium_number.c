@@ -2,26 +2,29 @@
 #include<math.h>
 int main()
 {
-    int n,a,c=1,r=0,m=0,o,b,p;
-    scanf("%d",&n);
-    o=n;
-    while (n!=0){
-        a=n%10;
-        r=r*10+a;
-        n/=10;
+    int a,b,c,d=0,e,f,i=0;
+    scanf("%d",&a);
+    e=a;
+    f=a;
+    while(f!=0)
+    {
+       f=f/10; 
+       i++;
     }
-    while (r!=0){
-       b=r%10;
-      p=pow(b,c);
-       c++;
-       m+=p;
-       r/=10;
+    while(e!=0)
+    {
+        b=e%10;
+        e=e/10;
+        c=pow(b,i);
+        d=d+c;
+        i--;
     }
-    if(o==m){
+    if(a==d)
+    {
         printf("True");
-        
     }
-    else{
+    else
+    {
         printf("False");
     }
 }
